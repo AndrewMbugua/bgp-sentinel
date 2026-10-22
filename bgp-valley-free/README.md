@@ -18,7 +18,7 @@ A "valley" occurs when a route learned from a peer or customer is propagated *up
 
 ```toml
 [dependencies]
-bgp-valley-free = "0.1"
+bgp-valley-free = "0.2"
 ```
 
 ```rust
