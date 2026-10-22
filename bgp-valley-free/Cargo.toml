@@ -1,6 +1,6 @@
 [package]
 name = "bgp-valley-free"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Andrew Mbugua"]
 description = "Valley-free AS-path validation using the Gao-Rexford model and CAIDA AS-relationship data"
