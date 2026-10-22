@@ -1,0 +1,18 @@
+[package]
+name = "bgp-valley-free"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andrew Mbugua"]
+description = "Valley-free AS-path validation using the Gao-Rexford model and CAIDA AS-relationship data"
+license = "MIT"
+repository = "https://github.com/bgp-sentinel/bgp-valley-free"
+homepage = "https://github.com/bgp-sentinel/bgp-valley-free"
+documentation = "https://docs.rs/bgp-valley-free"
+readme = "README.md"
+keywords = ["bgp", "routing", "as-path", "valley-free", "security"]
+categories = ["network-programming"]
+
+[dependencies]
+petgraph = "0.6"
+anyhow = "1"
+tracing = "0.1"
